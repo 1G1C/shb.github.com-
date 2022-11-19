@@ -1,0 +1,39 @@
+/* website font */ 
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+/* apply all pages */ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+}
+body{
+  background-color: #f2f2f2;
+}
+
+/* first page */ 
+.f-top{
+  text-align: center;
+  background-color: #3B3486;
+  height: 150px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.f-top h1{
+  padding-top: 10px;
+  font-size: 50px;
+  color: #fff;
+  text-decoration:underline #FFE9B1 6px;
+}
+.f-top p{
+  color: #FCFDF2;
+}
+
+.menu{
+  height: 100vh;
+  background-color: #FFE9B1;
+  
+ }
